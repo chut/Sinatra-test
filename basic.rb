@@ -12,6 +12,10 @@ get '/info' do
 	"This is some info about me: I like chut."
 end
 
+get '/paul' do
+  "<h1>This is my string test/commit thinger</h1>"
+end
+
 get '/hello/:name' do
 	"hello #{ params[:name].upcase}"
 end
